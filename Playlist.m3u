@@ -591,12 +591,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
 #EXTINF:-1 group-title="Развлечение" tvg-id="yu-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Ю ТВ +7 (Архив)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
-#EXTINF:-1 group-title="Развлечение", Discovery HD
-http://195.64.140.147:10151/151
 #EXTINF:-1 group-title="Развлечение", Gagsnetwork
 http://192.162.64.99:5000/play/a02j/index.m3u8
-#EXTINF:-1 group-title="Развлечение", Investigation Discovery
-http://46.8.46.14/InvestigationDiscovery/index.m3u8
 #EXTINF:-1 group-title="Развлечение", Nano
 http://s1.tv-nano.com/Nano_rec/video.m3u8
 #EXTINF:-1 group-title="Развлечение", RTG TV
@@ -609,12 +605,14 @@ http://195.64.140.147:10137/137
 http://195.64.140.147:10148/148
 #EXTINF:-1 group-title="Развлечение", Travel Channel HD
 http://195.64.140.147:10158/158
+#EXTINF:-1 group-title="Знания", Discovery HD
+http://195.64.140.147:10151/151
 #EXTINF:-1  group-title="Знания"  tvg-id="discovery-channel" , Discovery HD
 http://195.64.140.147:10151/151
-#EXTINF:-1  group-title="Знания"  tvg-id="discovery-channel" , DISCOVERY CHANNEL HD
-http://4.team.ga:80/ch123/mono.m3u8?token=ajonas.dBuBTtgm2TiHPzOguiYYW1HZTEOgH2J5j3WbMLsBrYSr_Lo8a8aMzYIfw47m6eFB
 #EXTINF:-1  group-title="Знания"  tvg-id="discovery-science" ,Discovery Science
 http://46.8.46.14/DiscoveryScience/index.m3u8
+#EXTINF:-1 group-title="Знания", Investigation Discovery
+http://46.8.46.14/InvestigationDiscovery/index.m3u8
 #EXTINF:-1 group-title="Знания", 360°
 http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/tracks-v3a1/mono.m3u8
 #EXTINF:-1 group-title="Знания", 360° HD
