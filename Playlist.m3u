@@ -1124,63 +1124,179 @@ http://178.212.71.253:8000/play/65/index.m3u8
 https://132544.edgevideo.ru/streams/132544_713325/1325441080/index.m3u8
 #EXTINF:-1 group-title="Музыка", Zerouno TV Music
 https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/playlist.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="pervy-pl9" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Первый канал +9 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="rossia1-pl9" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Россия 1 +9 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_ROSSIA1/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="ntv-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", НТВ +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="5kanal-ru-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Пятый канал +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="tvcentr-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", ТВ Центр +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="rentv-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Рен ТВ +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="disney-pl2"  tvg-logo="http://infoua.biz/image/tv/stream/disneyru.png"   tvg-name="Disney (+2)", Disney (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="disney-pl7"  tvg-logo="http://infoua.biz/image/tv/stream/disneyru.png"   tvg-name="Disney (+7)", Disney (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="domashny-pl4"  tvg-logo="https://runigma.com.ua/EPG/png/360e/1_0_16_44E_B_70_1680000_0_0_0.png"   tvg-name="Домашний (+4)", Домашний (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="piatnica-pl4"  tvg-logo="http://s1.hostingkartinok.com/uploads/images/2022/06/5a32ed55590036318513e82b6295b378.png"   tvg-name="Пятница (+4)", Пятница (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rentv-pl4"  tvg-logo="http://s1.hostingkartinok.com/uploads/images/2021/08/6900abad5b72092009961dfa20d42abc.png"   tvg-name="Рен ТВ (+4)", Рен ТВ (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="disney-pl4"  tvg-logo="http://infoua.biz/image/tv/stream/disneyru.png"   tvg-name="Disney (+4)", Disney (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="pervy-mn1"  tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/pervyi-kanal.jpg"   tvg-name="Первый канал (-1)", Первый канал (-1)
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_1TV_KLNG/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rentv-pl7"  tvg-logo="http://s1.hostingkartinok.com/uploads/images/2021/08/6900abad5b72092009961dfa20d42abc.png"   tvg-name="Рен ТВ (+7)", Рен ТВ (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="zvezda-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Звезда +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="mir-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Мир +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="domashny-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Домашний +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="piatnica-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Пятница! +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+#EXTINF:-1  group-title="Плюсовые"   tvg-name="Россия 1 (-1)", Россия 1 (-1)
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_KLGR_ROSSIA1/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rossia1-pl7"   tvg-name="Россия 1 (+7)", Россия 1 (+7)
+http://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_ROSSIA1/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="che-pl2"  tvg-logo="http://s1.hostingkartinok.com/uploads/images/2022/06/812154d69d69a971b4cf85143ac822fa.png"   tvg-name="Че (+2)", Че (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="che-pl4"  tvg-logo="http://s1.hostingkartinok.com/uploads/images/2022/06/812154d69d69a971b4cf85143ac822fa.png"   tvg-name="Че (+4)", Че (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="domashny-pl2"  tvg-logo="https://app.playlistbox.com/icon/y75Aja1n0b8YJZEz0EoOpLmdwRrqXgvP.png"   tvg-name="Домашний (+2)", Домашний (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="domashny-pl7"  tvg-logo="https://app.playlistbox.com/icon/y75Aja1n0b8YJZEz0EoOpLmdwRrqXgvP.png"   tvg-name="Домашний (+7)", Домашний (+7)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="sts-love-pl2"  tvg-logo="https://app.playlistbox.com/icon/KPkNpg4maGY0QJoljlMWLRnbqy328jAv.png"   tvg-name="СТС Love (+2)", СТС Love (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tv3-ru-pl2"  tvg-logo="https://app.playlistbox.com/icon/LqEygb36eAPXvx4D5exw1B4J20a7VGdn.png"   tvg-name="ТВ 3 (+2)", ТВ 3 (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tv3-ru-pl4"  tvg-logo="https://app.playlistbox.com/icon/LqEygb36eAPXvx4D5exw1B4J20a7VGdn.png"   tvg-name="ТВ 3 (+4)", ТВ 3 (+4)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tv3-ru-pl7"  tvg-logo="https://app.playlistbox.com/icon/LqEygb36eAPXvx4D5exw1B4J20a7VGdn.png"   tvg-name="ТВ 3 (+7)", ТВ 3 (+7)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tvcentr-pl4"  tvg-logo="https://app.playlistbox.com/icon/y75Aja1n0b8YJZE8pbMOpLmdwRrqXgvP.png"   tvg-name="ТВ Центр (+4)", ТВ Центр (+4)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tvcentr-pl7"  tvg-logo="https://app.playlistbox.com/icon/y75Aja1n0b8YJZE8pbMOpLmdwRrqXgvP.png"   tvg-name="ТВ Центр (+7)", ТВ Центр (+7)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="pervy-pl1"  tvg-logo="https://app.playlistbox.com/icon/5YDKwr2BqLzpgZeq7pZVW8J7GyvOXld6.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Первый канал (+1)", Первый канал (+1)
+https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="pervy-pl2"  tvg-logo="https://app.playlistbox.com/icon/5YDKwr2BqLzpgZeq7pZVW8J7GyvOXld6.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Первый канал (+2)", Первый канал (+2)
+https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_1TV_EKT/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="pervy-pl3"  tvg-logo="https://app.playlistbox.com/icon/5YDKwr2BqLzpgZeq7pZVW8J7GyvOXld6.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Первый канал (+3)", Первый канал (+3)
+https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="pervy-pl4"  tvg-logo="http://epg.it999.ru/img/146.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Первый канал (+4)", Первый канал (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="pervy-pl5"  tvg-logo="https://app.playlistbox.com/icon/5YDKwr2BqLzpgZeq7pZVW8J7GyvOXld6.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Первый канал (+5)", Первый канал (+5)
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_IRK_1TV/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="pervy-pl6"  tvg-logo="http://epg.it999.ru/img/146.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Первый канал (+6)", Первый канал (+6)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_6/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="pervy-pl7"  tvg-logo="http://epg.it999.ru/img/146.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Первый канал (+7)", Первый канал (+7)
+https://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_1TV/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="pervy-pl8"  tvg-logo="http://epg.it999.ru/img/146.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Первый канал (+8)", Первый канал (+8)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_8/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="2na2-pl2"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="2x2 (+2)", 2x2 (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="2na2-pl4"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="2x2 (+4)", 2x2 (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="2na2-pl7"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="2x2 (+7)", 2x2 (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="ntv-pl2"  tvg-logo="https://app.playlistbox.com/icon/0B7b8PKO54QkGZ6p1qxNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="НТВ (+2)", НТВ (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="ntv-pl4"  tvg-logo="https://app.playlistbox.com/icon/0B7b8PKO54QkGZ6p1qxNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="НТВ (+4)", НТВ (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="ntv-pl7"  tvg-logo="https://app.playlistbox.com/icon/0B7b8PKO54QkGZ6p1qxNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="НТВ (+7)", НТВ (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="pervy-pl9"  tvg-logo="http://epg.it999.ru/img/146.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Первый канал (+9)", Первый канал (+9)
+https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="piatnica-pl2"  tvg-logo="https://app.playlistbox.com/icon/ma2dV6vG79n1geMr53xQ3EDLAN4b5ryw.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Пятница! (+2)", Пятница! (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="piatnica-pl4"  tvg-logo="https://app.playlistbox.com/icon/ma2dV6vG79n1geMr53xQ3EDLAN4b5ryw.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Пятница! (+4)", Пятница! (+4)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="piatnica-pl7"  tvg-logo="https://app.playlistbox.com/icon/ma2dV6vG79n1geMr53xQ3EDLAN4b5ryw.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Пятница! (+7)", Пятница! (+7)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="kultura-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Россия Культура +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="5kanal-ru-pl2"  tvg-logo="https://app.playlistbox.com/icon/NqyYR0G5WKaBVxbkL5M9wmD7pjLP28OE.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Пятый канал (+2)", Пятый канал (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="5kanal-ru-pl4"  tvg-logo="https://app.playlistbox.com/icon/NqyYR0G5WKaBVxbkL5M9wmD7pjLP28OE.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Пятый канал (+4)", Пятый канал (+4)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="5kanal-ru-pl7"  tvg-logo="https://app.playlistbox.com/icon/NqyYR0G5WKaBVxbkL5M9wmD7pjLP28OE.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Пятый канал (+7)", Пятый канал (+7)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rentv-pl2"  tvg-logo="https://app.playlistbox.com/icon/Gl5gOW7dpJq9LRZAymZEkNQX2Bn6V1bA.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="РЕН ТВ (+2)", РЕН ТВ (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rossia1-pl1"  tvg-logo="https://app.playlistbox.com/icon/2q94OaJj6rD5gYx8V9Z1ELBXGWRzPQ0A.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия 1 (+1)", Россия 1 (+1)
+https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rossia1-pl2"  tvg-logo="https://app.playlistbox.com/icon/2q94OaJj6rD5gYx8V9Z1ELBXGWRzPQ0A.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия 1 (+2)", Россия 1 (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rossia1-pl3"  tvg-logo="https://app.playlistbox.com/icon/2q94OaJj6rD5gYx8V9Z1ELBXGWRzPQ0A.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия 1 (+3)", Россия 1 (+3)
+https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rossia1-pl4"  tvg-logo="https://app.playlistbox.com/icon/2q94OaJj6rD5gYx8V9Z1ELBXGWRzPQ0A.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия 1 (+4)", Россия 1 (+4)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rossia1-pl5"  tvg-logo="https://app.playlistbox.com/icon/2q94OaJj6rD5gYx8V9Z1ELBXGWRzPQ0A.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия 1 (+5)", Россия 1 (+5)
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_IRK_ROSSIA1/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rossia1-pl6"  tvg-logo="https://app.playlistbox.com/icon/2q94OaJj6rD5gYx8V9Z1ELBXGWRzPQ0A.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия 1 (+6)", Россия 1 (+6)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rossia1-pl8"  tvg-logo="https://app.playlistbox.com/icon/2q94OaJj6rD5gYx8V9Z1ELBXGWRzPQ0A.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия 1 (+8)", Россия 1 (+8)
+https://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA1/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="rossia1-pl9"  tvg-logo="https://app.playlistbox.com/icon/2q94OaJj6rD5gYx8V9Z1ELBXGWRzPQ0A.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия 1 (+9)", Россия 1 (+9)
+https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_ROSSIA1/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="kultura-pl2"  tvg-logo="https://app.playlistbox.com/icon/mGYXlVJ1Da0RjxXD7wxzy8dek2wvP5gW.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия К (+2)", Россия К (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="kultura-pl4"  tvg-logo="https://app.playlistbox.com/icon/mGYXlVJ1Da0RjxXD7wxzy8dek2wvP5gW.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия К (+4)", Россия К (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="kultura-pl7"  tvg-logo="https://app.playlistbox.com/icon/mGYXlVJ1Da0RjxXD7wxzy8dek2wvP5gW.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Россия К (+7)", Россия К (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="sts-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", СТС +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="tv3-ru-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", ТВ3 +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="tnt-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", ТНТ +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="sts-pl2"  tvg-logo="https://app.playlistbox.com/icon/KPkNpg4maGY0QJoljlMWLRnbqy328jAv.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="СТС (+2)", СТС (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="sts-pl4"  tvg-logo="https://app.playlistbox.com/icon/KPkNpg4maGY0QJoljlMWLRnbqy328jAv.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="СТС (+4)", СТС (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tnt-pl2"  tvg-logo="https://app.playlistbox.com/icon/aNGL5kdnv361goa79lMXVmPjYb7BWK4E.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТНТ (+2)", ТНТ (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tnt-pl4"  tvg-logo="https://app.playlistbox.com/icon/aNGL5kdnv361goa79lMXVmPjYb7BWK4E.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТНТ (+4)", ТНТ (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tnt-pl7"  tvg-logo="https://app.playlistbox.com/icon/aNGL5kdnv361goa79lMXVmPjYb7BWK4E.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТНТ (+7)", ТНТ (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="tnt4-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", ТНТ4 +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="che-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Че! +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="rossia-24-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Россия 24 +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="match-tv" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Матч! +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="muztv" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Муз-ТВ +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
-#EXTINF:-1 group-title="Плюсовые" tvg-id="karusel-pl7" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}", Карусель +7 (Архив)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tnt4-pl2"  tvg-logo="https://app.playlistbox.com/icon/lNqyYR0G5WKaBVxb35M9wmD7pjLP28OE.png"   catchup="append" catchup-days="3" ?offset="-${offset}&utcstart" tvg-name="ТНТ4 (+2)", ТНТ4 (+2)
+https://s25617.cdn.ngenix.net/mdrm/CH_TNT4_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tnt4-pl4"  tvg-logo="https://app.playlistbox.com/icon/lNqyYR0G5WKaBVxb35M9wmD7pjLP28OE.png"   catchup="append" catchup-days="3" ?offset="-${offset}&utcstart" tvg-name="ТНТ4 (+4)", ТНТ4 (+4)
+https://s25617.cdn.ngenix.net/mdrm/CH_TNT4_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tnt4-pl7"  tvg-logo="https://app.playlistbox.com/icon/lNqyYR0G5WKaBVxb35M9wmD7pjLP28OE.png"   catchup="append" catchup-days="3" ?offset="-${offset}&utcstart" tvg-name="ТНТ4 (+7)", ТНТ4 (+7)
+https://s25617.cdn.ngenix.net/mdrm/CH_TNT4_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="domashny-pl4"  tvg-logo="https://app.playlistbox.com/icon/y75Aja1n0b8YJZEz0EoOpLmdwRrqXgvP.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Домашний +4", Домашний +4
+https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="zvezda-pl2"  tvg-logo="https://app.playlistbox.com/icon/0B7b8PKO54QkGZ6pE5xNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Звезда (+2)", Звезда (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="zvezda-pl4"  tvg-logo="https://app.playlistbox.com/icon/0B7b8PKO54QkGZ6pE5xNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Звезда (+4)", Звезда (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="zvezda-pl7"  tvg-logo="https://app.playlistbox.com/icon/0B7b8PKO54QkGZ6pE5xNEqAYzmrVWyjg.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Звезда (+7)", Звезда (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="karusel-pl2"  tvg-logo="https://app.playlistbox.com/icon/eWjm281v9VYqwzx993xREnk3GBgNLKQX.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Карусель (+2)", Карусель (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="karusel-pl4"  tvg-logo="https://app.playlistbox.com/icon/eWjm281v9VYqwzx993xREnk3GBgNLKQX.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Карусель (+4)", Карусель (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="karusel-pl7"  tvg-logo="https://app.playlistbox.com/icon/eWjm281v9VYqwzx993xREnk3GBgNLKQX.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Карусель (+7)", Карусель (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="mir-pl2"  tvg-logo="https://app.playlistbox.com/icon/Q97O6Vp54NE2yxmOY8ZLKe3Pjln8qJAm.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="МИР (+2)", МИР (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="mir-pl4"  tvg-logo="https://app.playlistbox.com/icon/Q97O6Vp54NE2yxmOY8ZLKe3Pjln8qJAm.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="МИР (+4)", МИР (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="mir-pl7"  tvg-logo="https://app.playlistbox.com/icon/Q97O6Vp54NE2yxmOY8ZLKe3Pjln8qJAm.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="МИР (+7)", МИР (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-logo="https://app.playlistbox.com/icon/j5YDKwr2BqLzpgZeBzoVW8J7GyvOXld6.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="МУЗ ТВ (+2)", МУЗ ТВ (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-logo="https://app.playlistbox.com/icon/j5YDKwr2BqLzpgZeBzoVW8J7GyvOXld6.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="МУЗ ТВ (+4)", МУЗ ТВ (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-logo="https://app.playlistbox.com/icon/j5YDKwr2BqLzpgZeBzoVW8J7GyvOXld6.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="МУЗ ТВ (+7)", МУЗ ТВ (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="sts-pl7"  tvg-logo="https://app.playlistbox.com/icon/KPkNpg4maGY0QJoljlMWLRnbqy328jAv.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="СТС (+7)", СТС (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="super-pl2"  tvg-logo="https://app.playlistbox.com/icon/38qNz762JY5OD9x0Q0MPn1eAa4GyvL0V.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Супер (+2)", Супер (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="super-pl4"  tvg-logo="https://app.playlistbox.com/icon/38qNz762JY5OD9x0Q0MPn1eAa4GyvL0V.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Супер (+4)", Супер (+4)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="super-pl7"  tvg-logo="https://app.playlistbox.com/icon/38qNz762JY5OD9x0Q0MPn1eAa4GyvL0V.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Супер (+7)", Супер (+7)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="2038"  tvg-logo="https://app.playlistbox.com/icon/y75Aja1n0b8YJZE8pbMOpLmdwRrqXgvP.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТВ Центр (+2)", ТВ Центр (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tv3-ru-pl2"  tvg-logo="https://app.playlistbox.com/icon/LqEygb36eAPXvx4V1OZw1B4J20a7VGdn.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТВ3 (+2)", ТВ3 (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tv3-ru-pl4"  tvg-logo="https://app.playlistbox.com/icon/LqEygb36eAPXvx4V1OZw1B4J20a7VGdn.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТВ3 (+4)", ТВ3 (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="tv3-ru-pl7"  tvg-logo="https://app.playlistbox.com/icon/LqEygb36eAPXvx4V1OZw1B4J20a7VGdn.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="ТВ3 (+7)", ТВ3 (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-logo="https://app.playlistbox.com/icon/0Yw9lbPDOG1VRKZ5rroe8pm3LXjzgkQ2.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Че! (+2)", Че! (+2)
+https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_PERETZ/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-logo="https://app.playlistbox.com/icon/0Yw9lbPDOG1VRKZ5rroe8pm3LXjzgkQ2.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Че! (+4)", Че! (+4)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-logo="https://app.playlistbox.com/icon/0Yw9lbPDOG1VRKZ5rroe8pm3LXjzgkQ2.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Че! (+7)", Че! (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="yu-pl2"  tvg-logo="https://app.playlistbox.com/icon/mGYXlVJ1Da0RjxXJaLZzy8dek2wvP5gW.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Ю (+2)", Ю (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="yu-pl4"  tvg-logo="https://app.playlistbox.com/icon/mGYXlVJ1Da0RjxXJaLZzy8dek2wvP5gW.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Ю (+4)", Ю (+4)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
+#EXTINF:-1  group-title="Плюсовые"  tvg-id="yu-pl7"  tvg-logo="https://app.playlistbox.com/icon/mGYXlVJ1Da0RjxXJaLZzy8dek2wvP5gW.png"   catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="Ю (+7)", Ю (+7)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
